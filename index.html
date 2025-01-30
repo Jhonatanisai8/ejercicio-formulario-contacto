@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -13,13 +13,20 @@
     <form>
         <h2>Formulario de Contacto</h2>
         <div class="form_input">
-            <input type="text" placeholder="Nombre Completo" required>
+            <label for="nombre">Nombre Completo:</label>
+            <input type="text" placeholder="Jhon Doe" id="nombre" required>
         </div>
         <div class="form_input">
-            <input required type="email" placeholder="Email">
+            <label for="email">Email:</label>
+            <input required type="email" id="email" placeholder="@ejemplo.com">
         </div>
         <div class="form_input">
-            <textarea placeholder="Deja tu comentario..."></textarea>
+            <label for="mensaje">Comentario:</label>
+            <textarea placeholder="Deja tu comentario..." id="mensaje"></textarea>
+        </div>
+        <div class="form_input">
+            <label for="terminos">Acepta los terminos y condiciones:</label>
+            <input type="checkbox" name="terminos" id="terminos" class="checkbox">
         </div>
         <div class="button_send">
             <input type="submit" value="Enviar">

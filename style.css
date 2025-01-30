@@ -63,3 +63,13 @@ textarea {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border-radius: 1em;
 }
+
+label {
+    font-size: 0.9em;
+    line-height: 2;
+}
+
+.checkbox {
+    width: auto;
+    height: 10px;
+}
