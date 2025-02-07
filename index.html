@@ -12,14 +12,23 @@
 <body>
     <form>
         <h2>Formulario de Contacto</h2>
-        <div class="form_input">
-            <label for="nombre">Nombre Completo:</label>
-            <input type="text" placeholder="Jhon Doe" id="nombre" required>
-        </div>
-        <div class="form_input">
-            <label for="email">Email:</label>
-            <input required type="email" id="email" placeholder="@ejemplo.com">
-        </div>
+
+        <fieldset>
+            <legend>Información Básica: </legend>
+            <div class="form_input">
+                <label for="nombre">Nombre Completo:</label>
+                <input type="text" placeholder="Jhon Doe" id="nombre" required>
+            </div>
+            <div class="form_input">
+                <label for="email">Email:</label>
+                <input required type="email" id="email" placeholder="@ejemplo.com">
+            </div>
+            <div class="form_input">
+                <label for="asunto">Asunto:</label>
+                <input required type="asunto" id="asunto" placeholder="Asunto de tu mensaje">
+            </div>
+        </fieldset>
+
         <div class="form_input">
             <label for="type-of-user">Tipo de Usuario:</label>
             <select name="type-of-user" id="type-of-user">

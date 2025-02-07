@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: #444;
+    background: linear-gradient(to bottom,#444,#1E555C);
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -21,6 +21,7 @@ form {
     margin-top: 3em;
     box-shadow: 0 0 45px #fff9;
     border-radius: 8px;
+    margin-bottom: 50px;
 }
 
 
@@ -50,20 +51,6 @@ textarea {
     /* form-sizing: content; */
 }
 
-.button_send {
-    color: white;
-    width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.button_send>input {
-    color: white;
-    background-color: #1E555C;
-    letter-spacing: 0.5em;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border-radius: 1em;
-}
 
 label {
     font-size: 0.9em;
@@ -79,4 +66,30 @@ option {
     font-size: 1.2em;
     font-family: 'Courier New', Courier, monospace;
     background-color: #ededed;
+}
+
+fieldset {
+    border-radius: 5px;
+    border: 1px solid #1E555C;
+    padding: 8px 10px 10px 10px;
+    margin: 20px;
+}
+
+legend {
+    padding: 0 6px;
+}
+
+.button_send {
+    color: white;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button_send>input {
+    color: white;
+    background-color: #1E555C;
+    letter-spacing: 0.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 1em;
 }
